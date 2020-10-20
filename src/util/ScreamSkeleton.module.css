@@ -1,0 +1,39 @@
+.card{
+    display: flex !important;
+    margin-bottom: 20px !important;
+}
+.cardContent{
+    width: 100% !important;
+    flex-direction: column !important;
+    padding: 25px !important;
+}
+.cover{
+    min-width: 200px !important;
+    object-fit: cover !important;
+}
+.handle{
+    width: 60px !important;
+    height: 18px !important;
+    background-color: #1a91da !important;
+    margin-bottom: 7px !important;
+}
+.date{
+    height: 15px !important;
+    width: 100px !important;
+    background-color: rgba(0,0,0,.3) !important;
+    margin-bottom: 10px;
+}
+.fullLine{
+    height: 15px !important;
+    width: 90% !important;
+    margin-bottom: 10px !important;
+    background-color: rgba(0,0,0,.5) !important;
+
+}
+.halfLine{
+    height: 15px !important;
+    width: 50% !important;
+    margin-bottom: 10px !important;
+    background-color: rgba(0,0,0,.5) !important;
+
+}

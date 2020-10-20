@@ -1,0 +1,31 @@
+.paper{
+    padding: 20px !important;
+}
+.profile .imageWrapper {
+    text-align: center !important;
+    position: relative !important;
+}
+
+.profile .profileImage {
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: cover !important;
+    max-width: 100% !important;
+    border-radius:50% !important; 
+}
+.profile .profileDetails {
+    text-align: center !important;
+}
+.profile .profileDetails span,.profile .profileDetails svg{
+    vertical-align:middle !important;
+}
+
+
+.profile hr {
+    border: none !important;
+    margin: 0 0 10px 0 !important;
+}
+.userHandler{
+    color:#1a91da !important;
+    font-weight: bold !important;
+}

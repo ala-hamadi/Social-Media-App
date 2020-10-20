@@ -1,0 +1,49 @@
+db :
+    screams:
+            userHandler:'user',
+            body:'this is the scream body',
+            createdAt:'2020-10-05T14:48:00.000Z',
+            likeCount:5,
+            commentCount:2
+    
+    users:
+            userId:'azeazeafkldsjfdghj',
+            email:'user@gmail.com',
+            handle:'user',
+            createdAt:'2020-10-05T14:48:00.000Z',
+            imageUrl:'image/dfkgjfdlgdkf',
+            bio:'Hello my name is , nice to meet you',
+            website:'https://user.com',
+            location'Tunisia, Nabeul'
+    
+    comments:
+            userHandler:'user',
+            screamId:'hkfdjgkfhjkfgkdfj',
+            body:'nice one mate!',
+            createdAt:'2020-10-05T14:48:00.000Z'
+
+    notifications:
+                    recipient:'user1',
+                    sender:'user2',
+                    read:'true | false',
+                    screamId:'akjhzhgkdjsghfgkj',
+                    type:'like | comment',
+                    createdAt:'2020-10-05T14:48:00.000Z'
+
+
+userDetails (redux data):
+                        credentials:
+                                    userId:'kfdjgkfsdgjsldfgjdflg',
+                                    email:'user@gmail.com',
+                                    handle:'user',
+                                    createdAt:'2020-10-05T14:48:00.000Z',
+                                    imageUrl:'image/dfkgjfdlgdkf',
+                                    bio:'Hello my name is ...',
+                                    website:'https://user.com',
+                                    location'Tunisia, Nabeul'
+                        likes:
+                                    userHandler:'user',
+                                    screamId:'dflgkjdflgk'
+
+                                    userHandler:'user',
+                                    screamId:'fkdjgdfigofjdgio'

@@ -1,0 +1,14 @@
+.deleteButton{
+    position: absolute !important;
+    left:90% !important;
+    top:11% !important
+
+}
+
+@media (max-width:991px){
+    .deleteButton{
+        top:54% !important ;
+        left: 88% !important;
+
+    }
+}

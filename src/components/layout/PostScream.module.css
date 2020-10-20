@@ -1,0 +1,23 @@
+.submitButton{
+    position: relative !important;
+    float: right !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.progressSpinner{
+    position: absolute !important;
+}
+.closeButton{
+    position: absolute !important;
+    left:90% !important;
+    top:5% !important
+}
+.textField{
+    margin: 10px auto 10px auto !important;
+}
+
+@media (max-width:991px){
+    .closeButton{
+        left: 85% !important;
+    }
+}

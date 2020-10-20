@@ -1,0 +1,53 @@
+.invisibleHr{
+    border: none !important;
+    margin: 5px !important;
+}
+.visibleHr{
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    margin-bottom: 20px;
+}
+.profileImage{
+    max-width: 200px !important;
+    height: 200px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+}
+.dialogContent{
+    padding: 20px !important;
+}
+.closeButton{
+    position: absolute !important;
+    left: 90% !important;
+}
+
+.expandButton{
+    position: absolute !important;
+    left: 90% !important;
+}
+.spinnerDiv{
+    text-align: center !important;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+.userHandler{
+    color:#1a91da !important;
+    font-weight: bold !important;
+      
+}
+.userHandler:hover{
+    text-decoration: underline !important; 
+}
+
+
+@media (max-width:991px){
+    .expandButton{
+        top:78% !important ;
+        left: 88% !important;
+    }
+    .closeButton{
+        left:85% !important
+    }
+}
+

@@ -1,0 +1,83 @@
+.paper{
+    padding: 20px !important;
+}
+.profile .imageWrapper {
+    text-align: center !important;
+    position: relative !important;
+}
+.profile .imageWrapper button {
+    position: absolute !important;
+    top: 80% !important;
+    left: 70% !important;
+}
+.profile .profileImage {
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: cover !important;
+    max-width: 100% !important;
+    border-radius:50% !important; 
+}
+.profile .profileDetails {
+    text-align: center !important;
+}
+.profile .profileDetails span,.profile .profileDetails svg{
+    vertical-align:middle !important;
+}
+
+
+.profile hr {
+    border: none !important;
+    margin: 0 0 10px 0 !important;
+}
+.profile svg.button :hover {
+    cursor: pointer !important
+}
+
+.buttons{
+    text-align: center !important;
+}
+.buttons a {
+    margin: 20px 10px !important;
+ }
+
+
+ .cropContainer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #333
+}
+.sliderContainer{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.controls {
+    position: absolute;
+    left: 35%;
+    width: 50%;
+    transform: translateX(-50%);
+    display: flex ;
+    align-items: center;
+}
+
+.slider {
+    padding: 22px 0px;
+    margin-left: 16px,
+}
+.buttonSend{
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    width: 50%;
+    transform: translateX(-50%);
+    height: 80px;
+    display: flex ;
+    align-items: center;
+}
+
+.userHandler{
+    color:#1a91da !important;
+    font-weight: bold !important;
+}

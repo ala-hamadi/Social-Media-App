@@ -1,0 +1,10 @@
+.navContainer{
+    margin: auto !important;
+}
+.navContainer svg{
+    color: #fff;
+}
+.appBar{
+    box-shadow:none !important;
+    border-bottom: 1px solid #38444d !important;
+}

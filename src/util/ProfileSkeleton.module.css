@@ -1,0 +1,42 @@
+.handle{
+    height: 20px !important;
+    background-color: #1a91da !important;
+    width:  100px !important;
+    margin: 0 auto 7px 0 !important;
+}
+.fullLine{
+    height: 15px !important;
+    width: 100%;
+    background-color: rgba(0,0,0,.5) !important;
+    margin-bottom: 10px !important;
+}
+.halfLine{
+    height: 15px !important;
+    width: 50%;
+    background-color: rgba(0,0,0,.5) !important;
+    margin-bottom: 10px !important;
+}
+.paper{
+    padding: 20px !important;
+}
+.imageWrapper {
+    text-align: center !important;
+    position: relative !important;
+}
+.profileImage {
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: cover !important;
+    max-width: 100% !important;
+    border-radius:50% !important; 
+}
+.profileDetails {
+    text-align: center !important;
+}
+hr {
+    border: none !important;
+    margin: 0 0 10px 0 !important;
+}
+span,svg{
+    vertical-align:middle !important;
+}

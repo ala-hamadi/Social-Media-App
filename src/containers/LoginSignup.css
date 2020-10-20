@@ -1,0 +1,43 @@
+.form{
+    text-align: center !important;
+}
+.image{
+    margin: 20px auto 20px auto !important;
+    width: 20% !important;
+}
+.pageTitle{
+    margin: 10px auto 10px auto !important;
+    font-weight: bold !important;
+}
+.textField{
+    margin: 10px auto 10px auto !important;
+}
+.button{
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+    position: relative !important;
+}
+.customError{
+    color: red !important;
+    font-size: 0.8rem !important;
+    margin-top: 10px !important;
+}
+.progress{
+    position: absolute !important;
+}
+a{
+    color: #38444d;
+}
+
+    @media (max-width: 991px){
+        .test {
+            max-width:100% !important;
+            margin: auto !important;
+        }
+        .test2{
+            max-width:100% !important;
+            margin: auto !important;
+            flex-basis:50% !important
+        }
+}
+

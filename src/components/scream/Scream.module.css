@@ -1,0 +1,33 @@
+.card{
+    position: relative !important;
+    display:flex !important;
+    margin-bottom:20px !important;
+}
+.cardRes{
+        position: relative !important;
+        display:block !important;
+        margin-bottom:20px !important; 
+}
+@media (max-width:991px){
+    .card{
+        display:block !important;
+    }
+    .image{
+        height: 200px;
+    }
+  }
+.image{
+    min-width:200px !important;
+    object-fit:cover !important;
+}
+.content{
+    padding:25px !important;
+}
+
+.userHandler{
+    color:#1a91da !important;
+    font-weight: bold !important;
+}
+.userHandler:hover{
+    text-decoration: underline !important;  
+}
